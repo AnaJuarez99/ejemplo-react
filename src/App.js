@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import E1CompEstatico1 from './E1CompEstatico1';
 
 function App() {
   return (
@@ -17,6 +18,12 @@ function App() {
         >
           Learn React
         </a>
+
+        <E1CompEstatico1>
+          
+        </E1CompEstatico1>
+
+
       </header>
     </div>
   );
