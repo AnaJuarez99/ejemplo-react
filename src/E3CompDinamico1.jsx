@@ -4,7 +4,9 @@ export const E3CompDinamico1 = (props) => {
   console.log(props)
   return (
     <div>
-      <div>CompDinamico1</div>
+      <p>E3CompDinamico1</p>
+      <hr/>
+      <p>Productos</p>
       <ul>
         <li>{props.id}</li>
         <li>{props.producto.nombre}</li>
