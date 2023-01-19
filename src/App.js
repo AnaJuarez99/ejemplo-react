@@ -4,6 +4,7 @@ import E1CompEstatico1 from './E1CompEstatico1';
 import E2CompEstatico2  from './E2CompEstatico2';
 import E3CompDinamico1 from './E3CompDinamico1';
 import E5CompEventos from './E5CompEventos';
+import E4CompDinamico2 from './E4CompDinamico2';
 
 
 function App() {
@@ -11,6 +12,11 @@ function App() {
   const producto ={
     nombre:"horno",
     marca:"balay",
+  }
+
+  const coche ={
+    nombre:"M2",
+    marca:"BMW",
   }
 
 
@@ -35,6 +41,10 @@ function App() {
         <E2CompEstatico2/>
 
         <E3CompDinamico1 id='1' producto={producto}/>
+
+        <E4CompDinamico2 id='1' coche={coche}/>
+        <E4CompDinamico2 id='2' />
+
         <E5CompEventos/>
         
 
