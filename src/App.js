@@ -6,6 +6,7 @@ import E3CompDinamico1 from './E3CompDinamico1';
 import E5CompEventos from './E5CompEventos';
 import E4CompDinamico2 from './E4CompDinamico2';
 import E6CompEstados from './E6CompEstados';
+import TareaTema12 from './TareaTema12';
 
 
 function App() {
@@ -49,6 +50,8 @@ function App() {
         <E5CompEventos/>
 
         <E6CompEstados/>
+
+        <TareaTema12/>
         
 
 

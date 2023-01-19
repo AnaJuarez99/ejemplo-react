@@ -7,7 +7,7 @@ import { useState } from 'react'
 function E6CompEstados(props) {
 
     const[nombre, setNombre]=useState("Javi");//stnombre es ls funcion que modifica nombre (jose)
-    
+
     const cambiarNombre = (e, nombreFinal)=>{
         console.log(e.target);
         setNombre(nombreFinal);
