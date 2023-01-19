@@ -22,8 +22,9 @@ const TareaTema12 = props => {
 
     const handleYear = (e) => {
         
-        if(isNumber(e.target.value)){
-            setYear(e.target.value);
+        if(isNumber(parseInt(e.target.value))){
+           const int =parseInt(e.target.value);
+            setYear(int);
           }else {
             setYear(date);
           }
