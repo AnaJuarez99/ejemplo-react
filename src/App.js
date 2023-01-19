@@ -5,6 +5,7 @@ import E2CompEstatico2  from './E2CompEstatico2';
 import E3CompDinamico1 from './E3CompDinamico1';
 import E5CompEventos from './E5CompEventos';
 import E4CompDinamico2 from './E4CompDinamico2';
+import E6CompEstados from './E6CompEstados';
 
 
 function App() {
@@ -46,6 +47,8 @@ function App() {
         <E4CompDinamico2 id='2' />
 
         <E5CompEventos/>
+
+        <E6CompEstados/>
         
 
 

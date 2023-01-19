@@ -27,7 +27,9 @@ const E5CompEventos = props => {
   return (
     <div>
       <div>
-          <div>CompEventos</div>
+          <p>CompEventos</p>
+          <hr/>
+          <p>Eventos</p>
           <p><button onClick={handlerClick}>Click</button></p>
           <p><button onClick={e=>handlerClickEvent(e, "Unclick")}>UnClick</button></p>
           <p><button onDoubleClick={e=>handlerClickEvent(e, "Dobleclick")}>DoubleClick</button></p>
