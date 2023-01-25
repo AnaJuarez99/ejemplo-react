@@ -7,6 +7,7 @@ import E5CompEventos from './E5CompEventos';
 import E4CompDinamico2 from './E4CompDinamico2';
 import E6CompEstados from './E6CompEstados';
 import TareaTema12 from './TareaTema12';
+import RouterPrincipal from './routers/RouterPrincipal';
 
 
 function App() {
@@ -24,38 +25,41 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      {/* <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>
+            Edit <code>src/App.js</code> and save to reload.
+          </p>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
 
-        <E1CompEstatico1/>
+          <E1CompEstatico1/>
 
-        <E2CompEstatico2/>
+          <E2CompEstatico2/>
 
-        <E3CompDinamico1 id='1' producto={producto}/>
+          <E3CompDinamico1 id='1' producto={producto}/>
 
-        <E4CompDinamico2 id='1' coche={coche}/>
-        <E4CompDinamico2 id='2' />
+          <E4CompDinamico2 id='1' coche={coche}/>
+          <E4CompDinamico2 id='2' />
 
-        <E5CompEventos/>
+          <E5CompEventos/>
 
-        <E6CompEstados/>
+          <E6CompEstados/>
 
-        <TareaTema12/>
-        
+          <TareaTema12/>
+
+          
+          
 
 
-      </header>
+    </header>*/}
+  <RouterPrincipal/>
     </div>
   );
 }
